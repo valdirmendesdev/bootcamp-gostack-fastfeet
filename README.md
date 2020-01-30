@@ -22,7 +22,7 @@ Faça o clone do repositório
 git clone git@github.com:valdirmendesgt/bootcamp-gostack-fastfeet.git
 ```
 
-### Back-end - API
+### API Back-end
 
 #### Rotas disponíveis
 
