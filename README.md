@@ -49,4 +49,4 @@ Clique no link abaixo e verifique se recebeu uma mensagem de sucesso:
 
 ## :page_facing_up: Licença de uso
 
-Esse projeto está sob a licença MIT detalhado no arquivo [LICENSE](LICENSE.md).
+Esse projeto está sob a licença MIT detalhada no arquivo [LICENSE](LICENSE.md).
