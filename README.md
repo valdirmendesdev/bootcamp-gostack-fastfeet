@@ -9,11 +9,11 @@
 
 A aplicação FastFeet é um desafio proposto pelo bootcamp GoStack da Rocketseat para avaliação geral do aprendizado do aluno.
 
-A proposta é o desenvolvimento de uma aplicação completa (back-end, front-end e mobile) utilizando as tecnologias que foram ensinadas no bootcamp, sendo o back-end desenvolvido com Node.Js, Front-end Web com React e o mobile em React Native.
+A proposta é o desenvolvimento de uma aplicação completa (back-end, front-end e mobile) utilizando as tecnologias ensinadas no bootcamp, sendo o back-end desenvolvido com Node.Js, Front-end Web com React e o mobile em React Native.
 
 A aplicação é construída e evoluída através de vários desafios que são lançados ao longo dos módulos do curso.
 
-Para acompanhamento dos desenvolvimentos, histórico dos desafios e evolução da aplicação, eu criarei uma **branch** para cada desafio com a minha solução proposta.
+Para acompanhamento dos desenvolvimentos, histórico dos desafios e evolução da aplicação, eu criarei uma **branch** para cada desafio com a minha solução proposta respectiva.
 
 ## Para testar o projeto
 
