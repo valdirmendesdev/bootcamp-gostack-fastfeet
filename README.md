@@ -53,14 +53,15 @@ Clique no link abaixo e verifique se recebeu uma mensagem de sucesso:
 
 #### Rotas disponíveis
 
-|Método HTTP|         Rota        | Descrição                                 |
-|-----------|---------------------|-------------------------------------------|
-| GET       | /                   | Retorna mensagem que a aplicação está OK  |
-| POST      | /recipients         | Cria um destinatário                      |
-| GET       | /recipients         | Lista todos os destinatários existentes   |
-| GET       | /recipients/:id     | Retorna um destinatário pelo id           |
-| PUT       | /recipients/:id     | Atualiza dados de um destinatário pelo id |
-| DELETE    | /recipients/:id     | Exclui um destinatário pelo id            |
+|Método HTTP|         Rota        | Descrição                                   
+|-----------|---------------------|---------------------------------------------
+| GET       | /                   | Retorna mensagem que a aplicação está OK    
+| POST      | /sessions           | Autentica o usuário utilizando email e senha
+| POST      | /recipients         | Cria um destinatário                        
+| GET       | /recipients         | Lista todos os destinatários existentes     
+| GET       | /recipients/:id     | Retorna um destinatário pelo id             
+| PUT       | /recipients/:id     | Atualiza dados de um destinatário pelo id   
+| DELETE    | /recipients/:id     | Exclui um destinatário pelo id              
 
 ## :page_facing_up: Licença de uso
 
