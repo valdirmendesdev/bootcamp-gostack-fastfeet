@@ -13,7 +13,7 @@ A proposta é o desenvolvimento de uma aplicação completa (back-end, front-end
 
 A aplicação é construída e evoluída através de vários desafios que são lançados ao longo dos módulos do curso.
 
-Para acompanhamento dos desenvolvimentos, histórico dos desafios e evolução da aplicação, eu criarei uma **branch** para cada desafio com a minha solução proposta respectiva.
+Para acompanhamento dos desenvolvimentos, histórico dos desafios e evolução da aplicação, eu criarei uma **branch** para cada desafio com a minha solução proposta respectiva. 
 
 ## Para testar o projeto
 
@@ -26,13 +26,21 @@ git clone git@github.com:valdirmendesgt/bootcamp-gostack-fastfeet.git
 
 #### Rodar a aplicação
 
+##### Dependências
 Para execução do projeto, abra a pasta **backend** e instale as dependências do projeto com o comando abaixo:
 
 ```bash
 yarn install
 ```
 
+##### Variáveis 
 Copie o arquivo **.env.example** para **.env** e preencha as variáveis que serão utilizadas pela aplicação.
+
+##### Geração do usuário administrador
+Com toda a configuraçã feita, pa criar o usuário administrador, execute o comando:
+```bash
+yarn sequelize db:seed:all
+```
 
 Inicie o projeto:
 
