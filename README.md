@@ -32,7 +32,7 @@ Para execução do projeto, abra a pasta **backend** e instale as dependências 
 yarn install
 ```
 
-Copie o arquivo .env.example para .env e preencha as variáveis que serão utilizadas pela aplicação.
+Copie o arquivo **.env.example** para **.env** e preencha as variáveis que serão utilizadas pela aplicação.
 
 Inicie o projeto:
 
