@@ -24,12 +24,6 @@ git clone git@github.com:valdirmendesgt/bootcamp-gostack-fastfeet.git
 
 ### API Back-end
 
-#### Rotas disponíveis
-
-|Método HTTP|         Rota        | Descrição                                |
-|-----------|---------------------|------------------------------------------|
-| GET       | /                   | Retorna mensagem que a aplicação está OK |
-
 #### Rodar a aplicação
 
 Para execução do projeto, abra a pasta **backend** e instale as dependências do projeto com o comando abaixo:
@@ -37,6 +31,8 @@ Para execução do projeto, abra a pasta **backend** e instale as dependências 
 ```bash
 yarn install
 ```
+
+Copie o arquivo .env.example para .env e preencha as variáveis que serão utilizadas pela aplicação.
 
 Inicie o projeto:
 
@@ -46,6 +42,17 @@ yarn start
 
 Clique no link abaixo e verifique se recebeu uma mensagem de sucesso:
 [http://localhost:3333/](http://localhost:3333/)
+
+#### Rotas disponíveis
+
+|Método HTTP|         Rota        | Descrição                                 |
+|-----------|---------------------|-------------------------------------------|
+| GET       | /                   | Retorna mensagem que a aplicação está OK  |
+| POST      | /recipients         | Cria um destinatário                      |
+| GET       | /recipients         | Lista todos os destinatários existentes   |
+| GET       | /recipients/:id     | Retorna um destinatário pelo id           |
+| PUT       | /recipients/:id     | Atualiza dados de um destinatário pelo id |
+| DELETE    | /recipients/:id     | Exclui um destinatário pelo id            |
 
 ## :page_facing_up: Licença de uso
 
