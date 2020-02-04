@@ -26,13 +26,21 @@ git clone git@github.com:valdirmendesgt/bootcamp-gostack-fastfeet.git
 
 #### Rodar a aplicação
 
+##### Dependências
 Para execução do projeto, abra a pasta **backend** e instale as dependências do projeto com o comando abaixo:
 
 ```bash
 yarn install
 ```
 
-Copie o arquivo .env.example para .env e preencha as variáveis que serão utilizadas pela aplicação.
+##### Variáveis 
+Copie o arquivo **.env.example** para **.env** e preencha as variáveis que serão utilizadas pela aplicação.
+
+##### Geração do usuário administrador
+Com toda a configuraçã feita, pa criar o usuário administrador, execute o comando:
+```bash
+yarn sequelize db:seed:all
+```
 
 Inicie o projeto:
 
