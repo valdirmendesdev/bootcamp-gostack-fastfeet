@@ -13,7 +13,7 @@ A proposta é o desenvolvimento de uma aplicação completa (back-end, front-end
 
 A aplicação é construída e evoluída através de vários desafios que são lançados ao longo dos módulos do curso.
 
-Para acompanhamento dos desenvolvimentos, histórico dos desafios e evolução da aplicação, eu criarei uma **branch** para cada desafio com a minha solução proposta respectiva.
+Para acompanhamento dos desenvolvimentos, histórico dos desafios e evolução da aplicação, eu criarei uma **branch** para cada desafio com a minha solução proposta respectiva. 
 
 ## Para testar o projeto
 
