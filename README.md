@@ -30,7 +30,7 @@ git clone git@github.com:valdirmendesgt/bootcamp-gostack-fastfeet.git
 Para execução do projeto, abra a pasta **backend** e instale as dependências do projeto com o comando abaixo:
 
 ```bash
-yarn install
+yarn
 ```
 
 ##### Variáveis 
